@@ -1,0 +1,11 @@
+{
+  "code": "0",
+  "message": "",
+  "data": {
+    "spRes": {
+      "token": "MH6KMZ1M6J62",
+      "expires": "2023-05-16T12:57:14.000Z",
+      "checkoutUrl": "https://portal.integration.scalapay.com/checkout/MH6KMZ1M6J62"
+    }
+  }
+}

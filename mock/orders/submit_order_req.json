@@ -1,0 +1,53 @@
+{
+  "consumer": {
+    "phoneNumber": "",
+    "givenNames": "Yu",
+    "surname": "Wei",
+    "email": "vic.weiyu@gmail.com"
+  },
+  "shipping": {
+    "phoneNumber": "",
+    "countryCode": "AU",
+    "name": "Victor",
+    "postcode": "5000",
+    "suburb": "",
+    "line1": "123 Abc AVE"
+  },
+  "items": [
+    {
+      "gtin": "UPC",
+      "quantity": "1",
+      "price": {
+        "amount": "1000",
+        "currency": "EUR"
+      },
+      "name": "Macbook",
+      "category": "Tech",
+      "subcategory": [""],
+      "sku": "123456",
+      "brand": "Apple"
+    }
+  ],
+  "discounts": [
+    {
+      "amount": {
+        "amount": "10",
+        "currency": "EUR"
+      },
+      "displayName": ""
+    }
+  ],
+  "shippingAmount": {
+    "amount": "10",
+    "currency": "EUR"
+  },
+  "taxAmount": {
+    "amount": "10",
+    "currency": "EUR"
+  },
+  "product": "pay-in-3",
+  "frequency": {
+    "number": 1,
+    "frequencyType": "monthly"
+  }
+}
