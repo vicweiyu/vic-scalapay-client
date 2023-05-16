@@ -1,0 +1,16 @@
+# NodeJS
+node_modules
+package.json
+package-lock.json
+
+# Build
+dist
+
+# HTML
+public
+
+# LICENSE
+LICENSE
+
+# README
+README.md
