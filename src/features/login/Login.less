@@ -1,0 +1,39 @@
+.login-page {
+  .flex-column-nowrap-start-stretch();
+  .width-height-100();
+  padding: 0 1rem;
+
+  .login-logo {
+    flex: none;
+    .flex-row-nowrap-center-center();
+    padding: 3rem 0 1rem;
+
+    img {
+      height: 8rem;
+    }
+  }
+
+  .login-input {
+    flex: none;
+    .flex-column-nowrap-start-stretch();
+    padding: 1rem 0;
+  }
+
+  .login-oper {
+    flex: auto;
+    .flex-column-nowrap-start-stretch();
+
+    .oper-btn {
+      .flex-row-nowrap-center-center();
+      padding: 1rem 0;
+    }
+
+    .oper-links {
+      .flex-row-nowrap-between-center();
+
+      .link-item {
+        text-decoration: none;
+      }
+    }
+  }
+}

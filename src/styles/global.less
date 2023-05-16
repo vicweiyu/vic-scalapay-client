@@ -1,0 +1,27 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  .light-font();
+  font-size: @global-font-size-normal;
+  touch-action: none;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+body {
+  .width-height-100();
+  .padding-margin-0();
+}
+
+#root {
+  .width-height-100();
+}
+
+.app-backdrop {
+  z-index: 1400;
+}
+
+// TODO
+::-webkit-scrollbar {
+  display: none;
+}

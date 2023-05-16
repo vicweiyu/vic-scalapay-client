@@ -1,0 +1,22 @@
+@supports (top: constant(safe-area-inset-top)) or (top: env(safe-area-inset-top)) {
+  body {
+    .ios-safe-area-body();
+  }
+
+  /* Material-UI */
+  .MuiDialogTitle-root {
+    .ios-safe-area-top() !important;
+  }
+
+  .MuiDialogActions-root {
+    .ios-safe-area-bottom() !important;
+  }
+}
+
+/* iPhone 5, iPhone SE1 */
+@media screen and (device-width: 320px) and (device-height: 568px) and (device-pixel-ratio: 2) {
+  /* Material-UI */
+  .MuiDialogTitle-root {
+    .ios-status-bar() !important;
+  }
+}
